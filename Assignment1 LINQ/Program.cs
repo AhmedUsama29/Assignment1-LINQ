@@ -24,7 +24,7 @@ namespace Assignment1_LINQ
 
             #region Q3 : Returns digits whose name is shorter than their value
 
-            string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
             //var res = Arr.Where((n, i) => n.Length < i);
 
@@ -49,11 +49,21 @@ namespace Assignment1_LINQ
 
             #endregion
 
-            #region Q3 : 
+            #region Q3 : Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
 
-
+            //var res = ProductList.Select(p => new {p.ProductID, p.ProductName, Price = p.UnitPrice});
 
             #endregion
+
+            #region Q4 : Determine if the value of ints in an array match their position in the array.
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var res = Arr.Select((n, i) => $"{n} : {n == i}");
+
+            #endregion
+
+
 
             #endregion
 
