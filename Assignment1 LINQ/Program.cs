@@ -63,7 +63,23 @@ namespace Assignment1_LINQ
 
             #endregion
 
+            #region Q5 : Returns all pairs of numbers from both arrays such that the number from numbersA is less than the number from numbersB.
 
+            //int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+            //int[] numbersB = { 1, 3, 5, 7, 8 };
+
+            //var res = from a in numbersA
+            //          from b in numbersB
+            //          where a < b
+            //          select $"{a} is less than {b}";
+
+            #endregion
+
+            #region Q6 : Select all orders where the order total is less than 500.00.
+
+            //var res = CustomerList.SelectMany(c => c.Orders).Where(o => o.Total < 500);
+
+            #endregion
 
             #endregion
 
