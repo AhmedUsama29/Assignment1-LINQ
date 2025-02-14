@@ -81,6 +81,12 @@ namespace Assignment1_LINQ
 
             #endregion
 
+            #region Q7 : Select all orders where the order was made in 1998 or later.
+
+            var res = CustomerList.SelectMany(c => c.Orders).Where(o => o.OrderDate.Year >= 1998);
+
+            #endregion
+
             #endregion
 
             foreach (var item in res)
